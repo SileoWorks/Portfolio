@@ -48,7 +48,7 @@ export default function About() {
                 <div style={contentStyle}>
                     <h2 className="text-responsive-h2" style={{ marginBottom: '32px' }}>À Propos</h2>
                     <p style={{ marginBottom: '24px', color: '#ccc', lineHeight: '1.8' }}>
-                        Basé à Paris, je suis un modèle passionné par l’image, la photographie et la mise en scène.
+                        Basé à Paris, je suis un modèle de 24 ans passionné par l’image, la photographie et la mise en scène.
                     </p>
                     <p style={{ marginBottom: '40px', color: '#ccc', lineHeight: '1.8' }}>
                         Ouvert à tous types de projets (éditoriaux, commerciaux, haute couture...), je m’investis avec sérieux et authenticité dans chaque collaboration.

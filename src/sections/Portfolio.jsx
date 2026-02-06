@@ -44,12 +44,12 @@ const projects = [
 
 
 
-    { id: 1, category: 'ÉDITORIAL MODE', title: 'Teyssah', image: teyssah_face },
+    { id: 1, category: 'ÉDITORIAL MODE', title: 'teyssah_1', image: teyssah_face },
     { id: 5, category: 'ÉDITORIAL MODE', title: 'teyssah_2', image: teyssah_2 },
     { id: 13, category: 'ÉDITORIAL MODE', title: 'teyssah_3', image: teyssah_3 },
     { id: 14, category: 'ÉDITORIAL MODE', title: 'teyssah_4', image: teyssah_4 },
-    { id: 3, category: 'ÉDITORIAL MODE', title: 'entreprise', image: entreprise_1 },
-    { id: 4, category: 'ÉDITORIAL MODE', title: 'entreprise_2', image: entreprise_2 },
+    { id: 3, category: 'ÉDITORIAL MODE', title: 'def_1', image: entreprise_1 },
+    { id: 4, category: 'ÉDITORIAL MODE', title: 'def_2', image: entreprise_2 },
     { id: 22, category: 'ÉDITORIAL MODE', title: 'purple_1', image: purple_1 },
     { id: 23, category: 'ÉDITORIAL MODE', title: 'purple_2', image: purple_2 },
 
@@ -60,11 +60,11 @@ const projects = [
     { id: 19, category: 'MODE CONTEMPORAIN', title: 'cdg_2', image: cdg_2 },
     { id: 20, category: 'MODE CONTEMPORAIN', title: 'cdg_3', image: cdg_3 },
     { id: 21, category: 'MODE CONTEMPORAIN', title: 'cdg_4', image: cdg_4 },
-    { id: 2, category: 'MODE CONTEMPORAIN', title: 'full_black', image: full_black_1 },
+    { id: 2, category: 'MODE CONTEMPORAIN', title: 'full_black_1', image: full_black_1 },
     { id: 6, category: 'MODE CONTEMPORAIN', title: 'full_black_2', image: full_black_2 },
-    { id: 15, category: 'MODE CONTEMPORAIN', title: 'hoodie_acg', image: orange_1 },
-    { id: 16, category: 'MODE CONTEMPORAIN', title: 'hoodie_acg_2', image: orange_2 },
-    { id: 17, category: 'MODE CONTEMPORAIN', title: 'hoodie_acg_3', image: orange_3 },
+    { id: 15, category: 'MODE CONTEMPORAIN', title: 'acg_1', image: orange_1 },
+    { id: 16, category: 'MODE CONTEMPORAIN', title: 'acg_2', image: orange_2 },
+    { id: 17, category: 'MODE CONTEMPORAIN', title: 'acg_3', image: orange_3 },
     { id: 18, category: 'MODE CONTEMPORAIN', title: 'ami_black_1', image: ami_black_1 },
     { id: 19, category: 'MODE CONTEMPORAIN', title: 'ami_black_2', image: ami_black_2 },
     { id: 22, category: 'MODE CONTEMPORAIN', title: 'ami_black_3', image: ami_black_3 },
@@ -320,7 +320,8 @@ export default function Portfolio() {
                                 color: '#ccc',
                                 marginBottom: '40px'
                             }}>
-                                Découvrez en images les coulisses de mes derniers projets et une interview exclusive sur ma vision du métier de modèle.
+                                Interview réalisée à l'occasion du concours de la marque Teyssah Paris. Elle présente l'univers de la marque et le blazer gagné.
+                                La vidéo a été diffusée par le média AZALES.
                             </p>
 
                             <div style={{
@@ -366,9 +367,6 @@ export default function Portfolio() {
                                     Votre navigateur ne supporte pas la lecture de vidéos.
                                 </video>
                             </div>
-                            <span style={{ display: 'block', marginTop: '16px', color: '#666', fontSize: '0.8rem' }}>
-                                Interview complète - 2024
-                            </span>
                         </div>
                     ) : (
                         // STANDARD PHOTO GRID
