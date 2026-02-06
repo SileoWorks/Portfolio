@@ -108,6 +108,18 @@ export default function Portfolio() {
         }, 800);
     };
 
+    // Safety fallback: never allow the video loader to stay more than 3 seconds
+    // some browsers/mobile don't trigger the load events properly
+    useEffect(() => {
+        let timer;
+        if (selectedCategory === 'VIDÉOS' && videoLoading) {
+            timer = setTimeout(() => {
+                setVideoLoading(false);
+            }, 3000);
+        }
+        return () => clearTimeout(timer);
+    }, [selectedCategory, videoLoading]);
+
     const sectionStyle = {
         padding: '120px 24px',
         backgroundColor: '#0a0a0a',
@@ -366,6 +378,8 @@ export default function Portfolio() {
                                     onLoadedData={() => setVideoLoading(false)}
                                     onWaiting={() => setVideoLoading(true)}
                                     onPlaying={() => setVideoLoading(false)}
+                                    onError={() => setVideoLoading(false)}
+                                    onAbort={() => setVideoLoading(false)}
                                 >
                                     Votre navigateur ne supporte pas la lecture de vidéos.
                                 </video>
