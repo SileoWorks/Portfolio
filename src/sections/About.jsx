@@ -1,4 +1,4 @@
-import polas_face from '../assets/polas_face.JPG';
+import polas_face from '../assets/polas_face.webp';
 
 export default function About() {
     const sectionStyle = {
@@ -43,7 +43,7 @@ export default function About() {
         <section id="about" style={sectionStyle}>
             <div style={containerStyle}>
                 <div style={imageWrapperStyle} className="fade-in">
-                    <img src={polas_face} alt="Léon Portrait" style={imageStyle} />
+                    <img src={polas_face} alt="Léon Portrait" style={imageStyle} loading="lazy" />
                 </div>
                 <div style={contentStyle}>
                     <h2 className="text-responsive-h2" style={{ marginBottom: '32px' }}>À Propos</h2>

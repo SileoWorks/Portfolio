@@ -1,31 +1,31 @@
 import { useState } from 'react';
-import cover from '../assets/cover.png';
-import portfolio2 from '../assets/portfolio-2.png';
-import polas1 from '../assets/polas_face.JPG';
-import polas_profil_droit from '../assets/polas_profil_droit.JPG';
-import polas_profil_gauche from '../assets/polas_profil_gauche.JPG';
-import polas_3_4 from '../assets/polas_3_4.JPG';
-import polas_plein_pied from '../assets/polas_plein_pied.JPG';
-import teyssah_face from '../assets/teyssah_face.JPG';
-import teyssah_2 from '../assets/teyssah_2.JPG';
-import teyssah_3 from '../assets/teyssah_3.JPG';
-import teyssah_4 from '../assets/teyssah_4.JPG';
-import entreprise_1 from '../assets/entreprise_1.jpeg';
-import entreprise_2 from '../assets/entreprise_2.jpeg';
-import full_black_1 from '../assets/full_black_1.jpeg';
-import full_black_2 from '../assets/full_black_2.jpeg';
-import orange_1 from '../assets/orange_1.jpg';
-import orange_2 from '../assets/orange_2.jpg';
-import orange_3 from '../assets/orange_3.jpg';
-import ami_black_1 from '../assets/ami_black_1.JPG';
-import ami_black_2 from '../assets/ami_black_2.JPG';
-import ami_black_3 from '../assets/ami_black_3.JPG';
-import cdg_1 from '../assets/cdg_1.JPG';
-import cdg_2 from '../assets/cdg_2.JPG';
-import cdg_3 from '../assets/cdg_3.JPG';
-import cdg_4 from '../assets/cdg_4.JPG';
-import purple_1 from '../assets/purple_1.JPG';
-import purple_2 from '../assets/purple_2.JPG';
+import cover from '../assets/cover.webp';
+import portfolio2 from '../assets/portfolio-2.webp';
+import polas1 from '../assets/polas_face.webp';
+import polas_profil_droit from '../assets/polas_profil_droit.webp';
+import polas_profil_gauche from '../assets/polas_profil_gauche.webp';
+import polas_3_4 from '../assets/polas_3_4.webp';
+import polas_plein_pied from '../assets/polas_plein_pied.webp';
+import teyssah_face from '../assets/teyssah_face.webp';
+import teyssah_2 from '../assets/teyssah_2.webp';
+import teyssah_3 from '../assets/teyssah_3.webp';
+import teyssah_4 from '../assets/teyssah_4.webp';
+import entreprise_1 from '../assets/entreprise_1.webp';
+import entreprise_2 from '../assets/entreprise_2.webp';
+import full_black_1 from '../assets/full_black_1.webp';
+import full_black_2 from '../assets/full_black_2.webp';
+import orange_1 from '../assets/orange_1.webp';
+import orange_2 from '../assets/orange_2.webp';
+import orange_3 from '../assets/orange_3.webp';
+import ami_black_1 from '../assets/ami_black_1.webp';
+import ami_black_2 from '../assets/ami_black_2.webp';
+import ami_black_3 from '../assets/ami_black_3.webp';
+import cdg_1 from '../assets/cdg_1.webp';
+import cdg_2 from '../assets/cdg_2.webp';
+import cdg_3 from '../assets/cdg_3.webp';
+import cdg_4 from '../assets/cdg_4.webp';
+import purple_1 from '../assets/purple_1.webp';
+import purple_2 from '../assets/purple_2.webp';
 import interviewVideo from '../assets/interview_teyssah.MP4';
 
 
@@ -188,6 +188,7 @@ export default function Portfolio() {
                                     src={getCategoryCover(category)}
                                     alt={category}
                                     style={imageStyle}
+                                    loading="lazy"
                                 />
 
                                 <div style={{
@@ -378,7 +379,7 @@ export default function Portfolio() {
                                     className="project-card"
                                 >
                                     {project.image && (
-                                        <img src={project.image} alt={project.title} style={imageStyle} />
+                                        <img src={project.image} alt={project.title} style={imageStyle} loading="lazy" />
                                     )}
 
                                     <div style={{

@@ -1,5 +1,5 @@
 import '../index.css';
-import heroBg from '../assets/full_black_1.jpeg';
+import heroBg from '../assets/full_black_1.webp';
 
 export default function Hero() {
     const heroStyle = {
