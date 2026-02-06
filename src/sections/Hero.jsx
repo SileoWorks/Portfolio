@@ -1,5 +1,5 @@
 import '../index.css';
-import heroBg from '../assets/full_black_1.webp';
+import heroBg from '../assets/polas_profil_gauche.webp';
 
 export default function Hero() {
     const heroStyle = {
