@@ -15,22 +15,6 @@ export default function Hero() {
         overflow: 'hidden',
     };
 
-    // Immersive blurred background to fill the screen
-    const blurOverlayStyle = {
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        width: '100%',
-        height: '100%',
-        backgroundImage: `url(${heroBg})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        filter: 'blur(20px) brightness(0.4)',
-        transform: 'scale(1.1)', // Prevents white edges from blur
-        zIndex: -3,
-    };
-
-    // The actual photo, contained to show EVERYTHING
     const backgroundLayerStyle = {
         position: 'absolute',
         top: 0,
@@ -38,9 +22,8 @@ export default function Hero() {
         width: '100%',
         height: '100%',
         backgroundImage: `url(${heroBg})`,
-        backgroundSize: 'contain',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundPosition: 'top center',
         zIndex: -2,
     };
 
@@ -50,7 +33,7 @@ export default function Hero() {
         left: 0,
         width: '100%',
         height: '100%',
-        background: 'linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.6) 100%)',
+        background: 'linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.6) 100%)',
         zIndex: -1,
     };
 
@@ -76,7 +59,6 @@ export default function Hero() {
 
     return (
         <section id="hero" style={heroStyle}>
-            <div style={blurOverlayStyle} />
             <div style={backgroundLayerStyle} />
             <div style={overlayStyle} />
 
