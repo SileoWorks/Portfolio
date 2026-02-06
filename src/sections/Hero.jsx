@@ -4,12 +4,12 @@ import heroBg from '../assets/full_black_1.jpeg';
 export default function Hero() {
     const heroStyle = {
         minHeight: '100vh',
-        height: '160vh', // Tall hero to show the full portrait during scroll
+        height: '125vw', // Use vw to maintain aspect ratio relative to width
         width: '100%',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'flex-start',
-        paddingTop: '35vh', // Position text to frame the face
+        paddingTop: '25vh',
         alignItems: 'center',
         textAlign: 'center',
         position: 'relative',
@@ -35,7 +35,7 @@ export default function Hero() {
         left: 0,
         width: '100%',
         height: '100%',
-        background: 'linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.4) 100%)',
+        background: 'linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.4) 100%)',
         zIndex: -1,
     };
 
@@ -46,7 +46,7 @@ export default function Hero() {
         textTransform: 'uppercase',
         fontWeight: '400',
         fontFamily: '"Playfair Display", serif',
-        textShadow: '0 10px 30px rgba(0,0,0,0.8)',
+        textShadow: '0 10px 40px rgba(0,0,0,1)',
         lineHeight: '1',
     };
 
