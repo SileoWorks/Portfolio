@@ -20,11 +20,11 @@ import orange_3 from '../assets/orange_3.jpg';
 import ami_black_1 from '../assets/ami_black_1.JPG';
 import ami_black_2 from '../assets/ami_black_2.JPG';
 import ami_black_3 from '../assets/ami_black_3.JPG';
-import cdg_1 from '../assets/cdg_1.jpg';
-import cdg_2 from '../assets/cdg_2.jpg';
+import cdg_1 from '../assets/cdg_1.JPG';
+import cdg_2 from '../assets/cdg_2.JPG';
 import cdg_3 from '../assets/cdg_3.JPG';
 import cdg_4 from '../assets/cdg_4.JPG';
-import purple_1 from '../assets/purple_1.jpg';
+import purple_1 from '../assets/purple_1.JPG';
 import purple_2 from '../assets/purple_2.JPG';
 import interviewVideo from '../assets/interview_teyssah.MP4';
 
