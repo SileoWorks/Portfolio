@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import cover from '../assets/cover.webp';
 import portfolio2 from '../assets/portfolio-2.webp';
 import polas1 from '../assets/polas_face.webp';
@@ -26,7 +26,7 @@ import cdg_3 from '../assets/cdg_3.webp';
 import cdg_4 from '../assets/cdg_4.webp';
 import purple_1 from '../assets/purple_1.webp';
 import purple_2 from '../assets/purple_2.webp';
-import interviewVideo from '../assets/interview_teyssah.MP4';
+
 
 
 
@@ -333,8 +333,7 @@ export default function Portfolio() {
                                 color: '#ccc',
                                 marginBottom: '40px'
                             }}>
-                                Interview réalisée à l'occasion du concours de la marque Teyssah Paris. Elle présente l'univers de la marque et le blazer gagné.
-                                La vidéo a été diffusée par le média AZALES.
+                                Interview réalisée à l'occasion du concours de la marque Teyssah Paris. Elle présente l'univers de la marque et le blazer gagné. La vidéo a été diffusée par le média AZALES.
                             </p>
 
                             <div style={{
@@ -372,7 +371,7 @@ export default function Portfolio() {
                                         objectFit: 'contain'
                                     }}
                                     controls
-                                    src={interviewVideo}
+                                    src="/interview_teyssah.mp4"
                                     onLoadedMetadata={() => setVideoLoading(false)}
                                     onCanPlay={() => setVideoLoading(false)}
                                     onLoadedData={() => setVideoLoading(false)}
