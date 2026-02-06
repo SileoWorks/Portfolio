@@ -371,7 +371,9 @@ export default function Portfolio() {
                                         objectFit: 'contain'
                                     }}
                                     controls
-                                    src={`${import.meta.env.BASE_URL}interview_teyssah.mp4`}
+                                    playsInline
+                                    preload="metadata"
+                                    src={`${import.meta.env.BASE_URL}interview_teyssah.mp4?v=2`}
                                     onLoadedMetadata={() => setVideoLoading(false)}
                                     onCanPlay={() => setVideoLoading(false)}
                                     onLoadedData={() => setVideoLoading(false)}
