@@ -361,6 +361,8 @@ export default function Portfolio() {
                                     }}
                                     controls
                                     src={interviewVideo}
+                                    onLoadedMetadata={() => setVideoLoading(false)}
+                                    onCanPlay={() => setVideoLoading(false)}
                                     onLoadedData={() => setVideoLoading(false)}
                                     onWaiting={() => setVideoLoading(true)}
                                     onPlaying={() => setVideoLoading(false)}
