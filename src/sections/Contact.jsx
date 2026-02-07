@@ -41,7 +41,7 @@ export default function Contact() {
                 </div>
 
                 <div className="footer-copyright">
-                    <p>Copyright © {new Date().getFullYear()} Léon Tsielo. Tous droits réservés.</p>
+                    <p>Copyright © {new Date().getFullYear()} Léon. Tous droits réservés.</p>
                 </div>
             </div>
         </section>
