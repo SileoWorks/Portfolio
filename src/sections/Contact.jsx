@@ -19,16 +19,6 @@ export default function Contact() {
                         <h3 className="contact-label">Email</h3>
                         <a href="mailto:contact.tsielo@gmail.com" className="contact-link">contact.tsielo@gmail.com</a>
                     </div>
-
-                    <div className="contact-card">
-                        <svg className="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
-                            <line x1="12" y1="18" x2="12.01" y2="18" />
-                        </svg>
-                        <h3 className="contact-label">Téléphone</h3>
-                        <a href="tel:+33640335418" className="contact-link">+33 6 40 33 54 18</a>
-                    </div>
-
                     <div className="contact-card">
                         <svg className="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                             <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
