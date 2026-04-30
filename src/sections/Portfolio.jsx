@@ -333,7 +333,7 @@ export default function Portfolio() {
                                 color: '#ccc',
                                 marginBottom: '40px'
                             }}>
-                                Interview réalisée à l'occasion du concours de la marque Teyssah Paris. Elle présente l'univers de la marque et le blazer gagné. La vidéo a été diffusée par le média AZALES.
+                                Cette interview à été réalisée à l'occasion du concours de la marque Teyssah Paris. Elle présente l'univers de la marque et le blazer gagné. La vidéo a été diffusée par le média AZALES.
                             </p>
 
                             <div style={{
